@@ -1,0 +1,41 @@
+
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+      <title>My case study on mobilenet and wolfram (who is better ?) </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+      
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+      <h1 class="brt">Case study on MobileNet and Wolfram</h1>
+      <center>
+  
+
+      <div class="col-sm-12 col-xs-24 main_div">
+        This webcam is to take image
+        <div id="camera"></div>
+        <button type="button" class="btn btn-success maindivbtn" onclick="webcamview()">CAPTURE IMAGE</button>
+        <button type="button" class="btn btn-success maindivbtn" onclick="snapshotview()">IDENTIFY IMAGE</button>
+    </div>
+        <label >OUTPUT IN WOLFRAM - </label>    <label id="ED"></label>
+        <label >OUTPUT IN MOBILENET - </label>  <label id="TD"> </label>
+      
+        
+       
+    
+      </center>
+  <script src="main.js"></script>
+    </body>
+  </html>
+

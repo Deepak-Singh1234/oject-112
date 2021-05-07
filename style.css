@@ -1,0 +1,29 @@
+.brt{
+    font-family: 'Kaushan Script', cursive;  
+    box-shadow: black;
+    color: gold;
+    background-color: maroon;
+}
+.main_div{
+    background-color: rgb(196, 92, 52);
+    border: rgb(6, 65, 80);
+    border-radius: 10px;
+    border-style: solid;
+box-shadow: black;}
+
+
+#camera{
+    box-shadow:10px 10px 36px skyblue ;
+    border:2px solid crimson ;
+    width: 300px;
+    height: 300px;
+ }
+
+ #DD{
+     color: goldenrod;
+     box-shadow: black;
+ }
+
+ body{
+    background-color: linear-gradient(0% #fb00ff , 50% #f00 , 100% #20f ) ;
+ }
